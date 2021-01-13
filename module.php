@@ -204,8 +204,11 @@ return new class extends AbstractModule implements ModuleCustomInterface, Module
 "1 EVEN Beginn des Zweiten Weltkriegs\n2 TYPE ".$eventType."\n2 DATE 01 SEP 1939\n2 NOTE Beginn des Zweiten Weltkriegs durch den deutschen Überfall auf Polen.\n2 SOUR https://de.wikipedia.org/wiki/Überfall_auf_Polen",
 "1 EVEN D-Day\n2 TYPE ".$eventType."\n2 DATE 06 JUN 1944\n2 NOTE Beginn der Landung der Alliierten in der Normandie im Zweiten Weltkrieg. Der D-Day war der Beginn der Operation Overlord, die Landung selbst verlief unter dem Codenamen Operation Neptune.\n2 SOUR https://de.wikipedia.org/wiki/Operation_Overlord und https://de.wikipedia.org/wiki/Operation_Neptune",
 "1 EVEN Ende des Zweiten Weltkriegs\n2 TYPE ".$eventType."\n2 DATE 08 MAY 1945\n2 NOTE Symbolischer \"Tag der Befreiung\" und Ende des Zweiten Weltkriegs in Europa durch die bedingungslose Kapitulation der Wehrmacht.\n2 SOUR https://de.wikipedia.org/wiki/Tag_der_Befreiung",
+"1 EVEN Beginn der Bundesrepublik Deutschland\n2 TYPE ".$eventType."\n2 DATE 24 May 1949\n2 NOTE Mit der Entstehung der Bundesrepublik Deutschland trat am 24. Mai 1949 auch das Deutsche Grundgesetz in Kraft.\n2 SOUR https://de.wikipedia.org/wiki/Geschichte_der_Bundesrepublik_Deutschland_(bis_1990)#Gründung_der_Bundesrepublik_Deutschland_1949",
+"1 EVEN Beginn der Deutschen Demokratischen Republik\n2 TYPE ".$eventType."\n2 DATE 07 Oct 1949\n2 NOTE Mit der Entstehung der Deutschen Demokratischen Republik trat am 7. Oktober 1949 auch die 1. Verfassung der DDR in Kraft.\n2 SOUR https://de.wikipedia.org/wiki/Deutsche_Demokratische_Republik#Gründung_der_DDR_und_Aufbau_des_Sozialismus_(1949–1961)",
 "1 EVEN Bau der Berliner Mauer\n2 TYPE ".$eventType."\n2 DATE 13 AUG 1961\n2 NOTE Symbolischer \"Tag des Mauerbaus\".\n2 SOUR https://de.wikipedia.org/wiki/Berliner_Mauer",
 "1 EVEN Fall der Berliner Mauer\n2 TYPE ".$eventType."\n2 DATE 09 NOV 1989\n2 NOTE Symbolischer \"Tag des Mauerfalls\".\n2 SOUR https://de.wikipedia.org/wiki/Berliner_Mauer#Mauerfall",
+"1 EVEN Ende der Deutschen Demokratischen Republik\n2 TYPE ".$eventType."\n2 DATE 03 Oct 1990\n2 NOTE Mit ihrer Auflösung ging die Deutsche Demokratische Republik in der Bundesrepublik Deutschland auf.",
         ]);
     }
     
