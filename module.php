@@ -208,7 +208,7 @@ return new class extends AbstractModule implements ModuleCustomInterface, Module
 "1 EVEN Beginn der Deutschen Demokratischen Republik\n2 TYPE ".$eventType."\n2 DATE 07 Oct 1949\n2 NOTE Mit der Entstehung der Deutschen Demokratischen Republik trat am 7. Oktober 1949 auch die 1. Verfassung der DDR in Kraft.\n2 SOUR https://de.wikipedia.org/wiki/Deutsche_Demokratische_Republik#Gründung_der_DDR_und_Aufbau_des_Sozialismus_(1949–1961)",
 "1 EVEN Bau der Berliner Mauer\n2 TYPE ".$eventType."\n2 DATE 13 AUG 1961\n2 NOTE Symbolischer \"Tag des Mauerbaus\".\n2 SOUR https://de.wikipedia.org/wiki/Berliner_Mauer",
 "1 EVEN Fall der Berliner Mauer\n2 TYPE ".$eventType."\n2 DATE 09 NOV 1989\n2 NOTE Symbolischer \"Tag des Mauerfalls\".\n2 SOUR https://de.wikipedia.org/wiki/Berliner_Mauer#Mauerfall",
-"1 EVEN Ende der Deutschen Demokratischen Republik\n2 TYPE ".$eventType."\n2 DATE 03 Oct 1990\n2 NOTE Mit ihrer Auflösung ging die Deutsche Demokratische Republik in der Bundesrepublik Deutschland auf.",
+"1 EVEN Ende der Deutschen Demokratischen Republik\n2 TYPE ".$eventType."\n2 DATE 03 Oct 1990\n2 NOTE Mit ihrer Auflösung trat die Deutsche Demokratische Republik im Rahmen der \"Wiedervereinigung\" der Bundesrepublik Deutschland bei.",
         ]);
     }
     
