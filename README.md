@@ -11,6 +11,5 @@ Tested with webtrees v2.0.11 on PHP v7.4.13.
 2. Rename the folder to `HistoricEvents-Germany`.
 
 ## Usage
-As administrator activate this module in Control Panel -> Modules -> Individual page -> Historic events.
-
-As user activate the "Historic events" on the "Facts and events" tab.
+1. As administrator activate this module in Control Panel -> Modules -> Individual page -> Historic events.
+2. As user activate the "Historic events" on the "Facts and events" tab.
