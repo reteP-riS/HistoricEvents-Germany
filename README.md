@@ -7,8 +7,8 @@ Same as [webtrees#system-requirements](https://github.com/fisharebest/webtrees#s
 Tested with webtrees v2.0.11 on PHP v7.4.13.
 
 ## Installation
-1. Unzip the package into your `webtrees/modules_v4` directory of your web server.
-2. Rename the folder to `HistoricEvents-Germany`.
+1. Download and unzip the respective .zip file into your `webtrees/modules_v4` directory of your web server.
+2. Rename the folder `webtrees-HistoricEvents-Germany-x.y.z` with x.y.z being the version number to `HistoricEvents-Germany`.
 
 ## Usage
 1. As administrator activate this module in Control Panel -> Modules -> Individual page -> Historic events.
