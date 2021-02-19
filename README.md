@@ -1,6 +1,10 @@
 # HistoricEvents-Germany
-[![release](https://img.shields.io/static/v1?label=release&message=v1.0.4&color=green)](https://github.com/reteP-riS/webtrees-HistoricEvents-Germany/releases "release")
-[![license](https://img.shields.io/static/v1?label=license&message=GPL-3.0&color=orange)](https://github.com/reteP-riS/webtrees-HistoricEvents-Germany/blob/main/LICENSE.md "license")
+
+[![release](https://img.shields.io/github/v/release/reteP-riS/webtrees-HistoricEvents-Germany)](https://github.com/reteP-riS/webtrees-HistoricEvents-Germany/releases "release")
+[![downloads](https://img.shields.io/github/downloads/reteP-riS/webtrees-HistoricEvents-Germany/total.svg)](https://github.com/reteP-riS/webtrees-HistoricEvents-Germany/releases "downloads")
+[![open issues](https://img.shields.io/github/issues-raw/reteP-riS/webtrees-HistoricEvents-Germany)](https://github.com/reteP-riS/webtrees-HistoricEvents-Germany/issues "issues")
+[![open pull requests](https://img.shields.io/github/issues-pr-raw/reteP-riS/webtrees-HistoricEvents-Germany)](https://github.com/reteP-riS/webtrees-HistoricEvents-Germany/pulls "pull requests")
+[![license](https://img.shields.io/github/license/reteP-riS/webtrees-HistoricEvents-Germany)](https://github.com/reteP-riS/webtrees-HistoricEvents-Germany/blob/main/LICENSE.md "license")
 [![webtrees](https://img.shields.io/static/v1?label=webtrees&message=v2.x&color=blue)](https://github.com/fisharebest/webtrees "webtrees")
 
 This module provides selected events of the German history to [webtrees](https://github.com/fisharebest/webtrees) version 2.x only.
