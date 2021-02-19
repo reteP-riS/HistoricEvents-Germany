@@ -5,7 +5,14 @@
 
 This module provides selected events of the German history to [webtrees](https://github.com/fisharebest/webtrees) version 2.x only.
 
-## System requirements
+## Table of Contents
+
+* [System Requirements and Testing](#system-requirements-and-testing)
+* [Installation](#installation)
+* [Upgrade](#upgrade)
+* [Usage](#usage)
+
+## System Requirements and Testing
 Same as [webtrees#system-requirements](https://github.com/fisharebest/webtrees#system-requirements).
 
 Tested with webtrees v2.0.11 on PHP v7.4.13.
@@ -13,7 +20,15 @@ Tested with webtrees v2.0.11 on PHP v7.4.13.
 ## Installation
 1. Download and unzip the release specific [`webtrees-HistoricEvents-Germany-x.y.z.zip`](https://github.com/reteP-riS/webtrees-HistoricEvents-Germany/releases "release") file into your `webtrees/modules_v4` folder of your web server.
 2. Rename the folder `webtrees-HistoricEvents-Germany-x.y.z` to `HistoricEvents-Germany`.
-3. As an administrator, activate this module in Control Panel -> Modules -> Individual page -> Historic events.
+3. As an administrator, **activate** this module in Control Panel -> Modules -> Individual page -> Historic events.
+
+## Upgrade
+1. Download and unzip the release specific [`webtrees-HistoricEvents-Germany-x.y.z.zip`](https://github.com/reteP-riS/webtrees-HistoricEvents-Germany/releases "release") file into your `webtrees/modules_v4` folder of your web server.
+2. As an administrator, **deactivate** this module in Control Panel -> Modules -> Individual page -> Historic events.
+3. Rename the old folder `HistoricEvents-Germany` to `HistoricEvents-Germany.BACKUP`.
+4. Rename the new folder `webtrees-HistoricEvents-Germany-x.y.z` to `HistoricEvents-Germany`.
+5. As an administrator, **activate** this module in Control Panel -> Modules -> Individual page -> Historic events.
+6. If the new version is working as expected delete the folder `HistoricEvents-Germany.BACKUP`.
 
 ## Usage
 1. As a user, enable or disable the "Historic events" on the "Facts and events" tab as needed.
