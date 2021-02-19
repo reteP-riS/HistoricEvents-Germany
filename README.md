@@ -13,7 +13,7 @@ Tested with webtrees v2.0.11 on PHP v7.4.13.
 ## Installation
 1. Download and unzip the release specific [`webtrees-HistoricEvents-Germany-x.y.z.zip`](https://github.com/reteP-riS/webtrees-HistoricEvents-Germany/releases "release") file into your `webtrees/modules_v4` folder of your web server.
 2. Rename the folder `webtrees-HistoricEvents-Germany-x.y.z` to `HistoricEvents-Germany`.
-3. As administrator activate this module in Control Panel -> Modules -> Individual page -> Historic events.
+3. As an administrator, activate this module in Control Panel -> Modules -> Individual page -> Historic events.
 
 ## Usage
-1. As user activate or deactivate the "Historic events" on the "Facts and events" tab as needed.
+1. As a user, enable or disable the "Historic events" on the "Facts and events" tab as needed.
