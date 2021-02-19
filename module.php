@@ -42,7 +42,7 @@ return new class extends AbstractModule implements ModuleCustomInterface, Module
     
     public const CUSTOM_WEBSITE = 'https://github.com/reteP-riS/webtrees-HistoricEvents-Germany';
     
-    public const CUSTOM_VERSION = '1.0.4';
+    public const CUSTOM_VERSION = '1.0.5';
 
     public const CUSTOM_LAST = 'https://github.com/reteP-riS/webtrees-HistoricEvents-Germany/blob/main/latest-version.txt';
 
@@ -163,11 +163,11 @@ return new class extends AbstractModule implements ModuleCustomInterface, Module
             case 'de':
                 // Arrays are preferred, and faster.
                 // If your module uses .MO files, then you can convert them to arrays like this.
-                return (new Translation(__DIR__ . '/resources/language/de.mo'))->asArray();
+                return (new Translation(__DIR__ . '/resources/languages/de.mo'))->asArray();
             case 'de-DE':
                 // Arrays are preferred, and faster.
                 // If your module uses .MO files, then you can convert them to arrays like this.
-                return (new Translation(__DIR__ . '/resources/language/de_DE.mo'))->asArray();
+                return (new Translation(__DIR__ . '/resources/languages/de_DE.mo'))->asArray();
     
             default:
                 return [];
@@ -181,7 +181,7 @@ return new class extends AbstractModule implements ModuleCustomInterface, Module
      *      1 EVEN <title>
      *      2 TYPE <short category name>
      *      2 DATE <date or date period>
-     *      2 NOTE <comment or [wikipedia.de](<link>)>
+     *      2 NOTE <comment>
      *      2 SOUR <source>
      *
      * @return Collection<string>
@@ -213,17 +213,3 @@ return new class extends AbstractModule implements ModuleCustomInterface, Module
     }
     
 };
-
-    /**
-     * Umlaute, etc.:
-     * 
-     * &auml; ä Ã¤
-     * &ouml; ö Ã¶
-     * &uuml; ü Ã¼
-     * &Auml; Ä Ã„
-     * &Ouml; Ö Ã–
-     * &Uuml; Ü Ãœ
-     * &szlig; ß ÃŸ
-     * &dagger; † 
-     * 
-     */
