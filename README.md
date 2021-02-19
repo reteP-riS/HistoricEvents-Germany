@@ -18,17 +18,17 @@ Same as [webtrees#system-requirements](https://github.com/fisharebest/webtrees#s
 Tested with webtrees v2.0.11 on PHP v7.4.13.
 
 ## Installation
-1. Download and unzip the release specific [`webtrees-HistoricEvents-Germany-x.y.z.zip`](https://github.com/reteP-riS/webtrees-HistoricEvents-Germany/releases "release") file into your `webtrees/modules_v4` folder of your web server.
+1. Download and unzip the release specific [`webtrees-HistoricEvents-Germany-x.y.z.zip`](https://github.com/reteP-riS/webtrees-HistoricEvents-Germany/releases "release") file into the `webtrees/modules_v4` folder of your web server.
 2. Rename the folder `webtrees-HistoricEvents-Germany-x.y.z` to `HistoricEvents-Germany`.
-3. As an administrator, **activate** this module in Control Panel -> Modules -> Individual page -> Historic events.
+3. As an administrator, **enable** this module in Control Panel -> Modules -> Individual page -> Historic events.
 
 ## Upgrade
-1. Download and unzip the release specific [`webtrees-HistoricEvents-Germany-x.y.z.zip`](https://github.com/reteP-riS/webtrees-HistoricEvents-Germany/releases "release") file into your `webtrees/modules_v4` folder of your web server.
-2. As an administrator, **deactivate** this module in Control Panel -> Modules -> Individual page -> Historic events.
+1. Download and unzip the release specific [`webtrees-HistoricEvents-Germany-x.y.z.zip`](https://github.com/reteP-riS/webtrees-HistoricEvents-Germany/releases "release") file into the `webtrees/modules_v4` folder of your web server.
+2. As an administrator, **disable** this module in Control Panel -> Modules -> Individual page -> Historic events.
 3. Rename the old folder `HistoricEvents-Germany` to `HistoricEvents-Germany.BACKUP`.
 4. Rename the new folder `webtrees-HistoricEvents-Germany-x.y.z` to `HistoricEvents-Germany`.
-5. As an administrator, **activate** this module in Control Panel -> Modules -> Individual page -> Historic events.
-6. If the new version is working as expected delete the folder `HistoricEvents-Germany.BACKUP`.
+5. As an administrator, **enable** this module in Control Panel -> Modules -> Individual page -> Historic events.
+6. If the new version is working as expected you should delete the folder `HistoricEvents-Germany.BACKUP`.
 
 ## Usage
 1. As a user, enable or disable the "Historic events" on the "Facts and events" tab as needed.
