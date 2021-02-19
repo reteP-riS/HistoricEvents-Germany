@@ -1,7 +1,7 @@
 # HistoricEvents-Germany
-![release](https://img.shields.io/static/v1?label=release&message=v1.0.3&color=green)
-![license](https://img.shields.io/static/v1?label=license&message=GPL-3.0&color=orange)
-![webtrees](https://img.shields.io/static/v1?label=webtrees&message=v2.x&color=blue)
+[![release](https://img.shields.io/static/v1?label=release&message=v1.0.3&color=green)](https://github.com/reteP-riS/webtrees-HistoricEvents-Germany/releases "release")
+[![license](https://img.shields.io/static/v1?label=license&message=GPL-3.0&color=orange)](https://github.com/reteP-riS/webtrees-HistoricEvents-Germany/blob/main/LICENSE.md "license")
+[![webtrees](https://img.shields.io/static/v1?label=webtrees&message=v2.x&color=blue)](https://github.com/fisharebest/webtrees "webtrees")
 
 This module provides selected events of the German history to [webtrees](https://github.com/fisharebest/webtrees) version 2.x only.
 
