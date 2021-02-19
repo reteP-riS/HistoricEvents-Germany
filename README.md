@@ -73,7 +73,7 @@ Support for historic EVEN tags is currently limited to the TYPE, DATE, NOTE and 
       ]);
     }
 
-German language files are included to translate the TYPE from English "Historic event" to the German "Historisches Ereignis" for all events while the EVEN, NOTE and SOUR values are currently available in German only.
+German language files are included to translate the TYPE from English "Historic event" to the German "Historisches Ereignis" for all events while the EVEN, NOTE and SOUR values are currently available in German only. Links like in the above example will only be clickable if markdown has NOT been enabled in the tree preferences. 
 
 ## Usage
 
