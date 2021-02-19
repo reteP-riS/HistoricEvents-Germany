@@ -1,6 +1,7 @@
 # HistoricEvents-Germany
-![HistoricEvents-Germany latest version](https://img.shields.io/static/v1?label=HistoricEvents-Germany%20latest%20version&message=v1.0.3&color=green)
-![webtrees major version](https://img.shields.io/static/v1?label=webtrees%20major%20version&message=v2.x&color=blue)
+![release](https://img.shields.io/static/v1?label=release&message=v1.0.3&color=green)
+![license](https://img.shields.io/static/v1?label=license&message=GPL-3.0&color=orange)
+![webtrees](https://img.shields.io/static/v1?label=webtrees&message=v2.x&color=blue)
 
 This module provides selected events of the German history to [webtrees](https://github.com/fisharebest/webtrees) version 2.x only.
 
