@@ -2,7 +2,7 @@
 
 [![release](https://img.shields.io/github/v/release/reteP-riS/webtrees-HistoricEvents-Germany)](https://github.com/reteP-riS/webtrees-HistoricEvents-Germany/releases "release")
 [![downloads](https://img.shields.io/github/downloads/reteP-riS/webtrees-HistoricEvents-Germany/total.svg)](https://github.com/reteP-riS/webtrees-HistoricEvents-Germany/releases "downloads")
-[![open issues](https://img.shields.io/github/issues-raw/reteP-riS/webtrees-HistoricEvents-Germany)](https://github.com/reteP-riS/webtrees-HistoricEvents-Germany/issues "issues")
+[![open issues](https://img.shields.io/github/issues-raw/reteP-riS/webtrees-HistoricEvents-Germany)](https://github.com/reteP-riS/webtrees-HistoricEvents-Germany/issues?state=open "issues")
 [![open pull requests](https://img.shields.io/github/issues-pr-raw/reteP-riS/webtrees-HistoricEvents-Germany)](https://github.com/reteP-riS/webtrees-HistoricEvents-Germany/pulls "pull requests")
 [![license](https://img.shields.io/github/license/reteP-riS/webtrees-HistoricEvents-Germany)](https://github.com/reteP-riS/webtrees-HistoricEvents-Germany/blob/main/LICENSE.md "license")
 [![webtrees](https://img.shields.io/static/v1?label=webtrees&message=v2.x&color=blue)](https://github.com/fisharebest/webtrees "webtrees")
@@ -15,7 +15,9 @@ This module provides selected events of the German history to [webtrees](https:/
 * [System Requirements and Testing](#system-requirements-and-testing)
 * [Installation](#installation)
 * [Upgrade](#upgrade)
+* [Implementation and Languages](#implementation-and-languages)
 * [Usage](#usage)
+* [Issues and Feature Requests](#issues-and-feature-requests)
 
 ## Copyright and License
 
@@ -48,6 +50,35 @@ Tested with webtrees v2.0.11 on PHP v7.4.13.
 5. As an administrator, **enable** this module in Control Panel -> Modules -> Individual page -> Historic events.
 6. If the new version is working as expected you should delete the folder `HistoricEvents-Germany.BACKUP`.
 
+## Implementation and Languages
+
+Support for historic EVEN tags is currently limited to the TYPE, DATE, NOTE and SOUR subtags. Language support is even further limited to the TYPE subtag. Below you'll find an example in **German** and how it was implemented in `module.php`:
+
+#### Resulting GEDCOM lines 
+    1 EVEN Beginn des Ersten Weltkriegs
+    2 TYPE Historisches Ereignis
+    2 DATE 28 JUL 1914
+    2 NOTE Beginn des Ersten Weltkriegs durch die Kriegserklärung Österreich-Ungarns an Serbien.
+    2 SOUR https://de.wikipedia.org/wiki/Erster_Weltkrieg
+
+#### Implementation
+
+    public function historicEventsAll(): Collection
+    {
+      $eventType = I18N::translate('Historic event');
+      return new Collection([
+      ...
+      "1 EVEN Beginn des Ersten Weltkriegs\n2 TYPE ".$eventType."\n2 DATE 28 JUL 1914\n2 NOTE Beginn des Ersten Weltkriegs durch die Kriegserklärung Österreich-Ungarns an Serbien.\n2 SOUR https://de.wikipedia.org/wiki/Erster_Weltkrieg",
+      ...
+      ]);
+    }
+
+German language files are included to translate the TYPE from English "Historic event" to the German "Historisches Ereignis" for all events while the EVEN, NOTE and SOUR values are currently available in German only.
+
 ## Usage
 
 1. As a user, enable or disable the "Historic events" on the "Facts and events" tab as needed.
+
+## Issues and Feature Requests
+
+If you experience a software issue or have a request for additional historic events for this module you can [**create a new issue**](https://github.com/reteP-riS/webtrees-HistoricEvents-Germany/issues?state=open "create new issue") on GitHub.
