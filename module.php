@@ -165,10 +165,15 @@ return new class extends AbstractModule implements ModuleCustomInterface, Module
                 // If your module uses .MO files, then you can convert them to arrays like this.
                 return (new Translation(__DIR__ . '/resources/languages/de.mo'))->asArray();
             case 'de-DE':
-                // Arrays are preferred, and faster.
-                // If your module uses .MO files, then you can convert them to arrays like this.
                 return (new Translation(__DIR__ . '/resources/languages/de_DE.mo'))->asArray();
-    
+            case 'es':
+                return (new Translation(__DIR__ . '/resources/languages/es.mo'))->asArray();
+            case 'fr':
+                return (new Translation(__DIR__ . '/resources/languages/fr.mo'))->asArray();
+            case 'it':
+                return (new Translation(__DIR__ . '/resources/languages/it.mo'))->asArray();
+            case 'nl':
+                return (new Translation(__DIR__ . '/resources/languages/nl.mo'))->asArray();
             default:
                 return [];
         }
