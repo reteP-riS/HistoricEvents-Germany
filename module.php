@@ -42,9 +42,9 @@ return new class extends AbstractModule implements ModuleCustomInterface, Module
     
     public const CUSTOM_WEBSITE = 'https://github.com/reteP-riS/HistoricEvents-Germany';
     
-    public const CUSTOM_VERSION = '1.0.7';
+    public const CUSTOM_VERSION = '1.0.8';
 
-    public const CUSTOM_LAST = 'https://github.com/reteP-riS/HistoricEvents-Germany/blob/main/latest-version.txt';
+    public const CUSTOM_LAST = 'https://github.com/reteP-riS/HistoricEvents-Germany/raw/main/latest-version.txt';
 
     /**
      * Constructor.  The constructor is called on *all* modules, even ones that are disabled.
