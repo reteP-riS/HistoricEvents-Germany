@@ -68,12 +68,12 @@ Support for historic EVEN tags is currently limited to the TYPE, DATE, NOTE and 
       $eventType = I18N::translate('Historic event');
       return new Collection([
       ...
-      "1 EVEN Beginn des Ersten Weltkriegs\n2 TYPE ".$eventType."\n2 DATE 28 JUL 1914\n2 NOTE Beginn des Ersten Weltkriegs durch die Kriegserklärung Österreich-Ungarns an Serbien.\n2 SOUR https://de.wikipedia.org/wiki/Erster_Weltkrieg",
+      "1 EVEN Beginn des Ersten Weltkriegs\n2 TYPE ".$eventType."\n2 PLAC Westerplatte, Neufahrwasser, Stadtkreis Danzig, Freie Stadt Danzig\n2 DATE 28 JUL 1914\n2 NOTE Beginn des Ersten Weltkriegs durch die Kriegserklärung Österreich-Ungarns an Serbien.\n2 SOUR https://de.wikipedia.org/wiki/Erster_Weltkrieg",
       ...
       ]);
     }
 
-Language files are included to translate the event TYPE value from English "Historic event" to the German "Historisches Ereignis" and other languages for all events automatically while the EVEN, NOTE and SOUR values are currently available in German only. Links like in the above example will only be clickable if markdown has NOT been enabled in the tree preferences. 
+Language files are included to translate the event TYPE value from English "Historic event" to the German "Historisches Ereignis" and other languages for all events automatically while the EVEN, PLAC, NOTE and SOUR values are currently available in German only. Links like in the above example will only be clickable if markdown has NOT been enabled in the tree preferences. 
 
 ## Usage
 
