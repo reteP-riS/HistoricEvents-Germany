@@ -52,11 +52,12 @@ Tested with webtrees v2.0.11 on PHP v7.4.13.
 
 ## Implementation and Languages
 
-Support for historic EVEN tags is currently limited to the TYPE, DATE, NOTE and SOUR subtags. Language support is even further limited to the TYPE subtag. Below you'll find an example in **German** and how it was implemented in `module.php`:
+Support for historic EVEN tags is currently limited to the TYPE, PLAC, DATE, NOTE and SOUR subtags. Language support is even further limited to the TYPE subtag. Below you'll find an example in **German** and how it was implemented in `module.php`:
 
 #### Resulting GEDCOM lines 
     1 EVEN Beginn des Ersten Weltkriegs
     2 TYPE Historisches Ereignis
+    2 PLAC Westerplatte, Neufahrwasser, Stadtkreis Danzig, Freie Stadt Danzig
     2 DATE 28 JUL 1914
     2 NOTE Beginn des Ersten Weltkriegs durch die Kriegserklärung Österreich-Ungarns an Serbien.
     2 SOUR https://de.wikipedia.org/wiki/Erster_Weltkrieg
