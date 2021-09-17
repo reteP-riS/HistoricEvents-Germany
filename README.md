@@ -55,12 +55,12 @@ Tested with webtrees v2.0.11 on PHP v7.4.13.
 Support for historic EVEN tags is currently limited to the TYPE, PLAC, DATE, NOTE and SOUR subtags. Language support is even further limited to the TYPE subtag. Below you'll find an example in **German** and how it was implemented in `module.php`:
 
 #### Resulting GEDCOM lines 
-    1 EVEN Beginn des Ersten Weltkriegs
+    1 EVEN Beginn des Zweiten Weltkriegs
     2 TYPE Historisches Ereignis
+    2 DATE 01 SEP 1939
     2 PLAC Westerplatte, Neufahrwasser, Stadtkreis Danzig, Freie Stadt Danzig
-    2 DATE 28 JUL 1914
-    2 NOTE Beginn des Ersten Weltkriegs durch die Kriegserklärung Österreich-Ungarns an Serbien.
-    2 SOUR https://de.wikipedia.org/wiki/Erster_Weltkrieg
+    2 NOTE Beginn des Zweiten Weltkriegs durch den deutschen Überfall auf Polen.
+    2 SOUR https://de.wikipedia.org/wiki/Überfall_auf_Polen
 
 #### Implementation
 
@@ -69,7 +69,7 @@ Support for historic EVEN tags is currently limited to the TYPE, PLAC, DATE, NOT
       $eventType = I18N::translate('Historic event');
       return new Collection([
       ...
-      "1 EVEN Beginn des Ersten Weltkriegs\n2 TYPE ".$eventType."\n2 PLAC Westerplatte, Neufahrwasser, Stadtkreis Danzig, Freie Stadt Danzig\n2 DATE 28 JUL 1914\n2 NOTE Beginn des Ersten Weltkriegs durch die Kriegserklärung Österreich-Ungarns an Serbien.\n2 SOUR https://de.wikipedia.org/wiki/Erster_Weltkrieg",
+"1 EVEN Beginn des Zweiten Weltkriegs\n2 TYPE ".$eventType."\n2 DATE 01 SEP 1939\n2 PLAC Westerplatte, Neufahrwasser, Stadtkreis Danzig, Freie Stadt Danzig\n2 NOTE Beginn des Zweiten Weltkriegs durch den deutschen Überfall auf Polen.\n2 SOUR https://de.wikipedia.org/wiki/Überfall_auf_Polen",
       ...
       ]);
     }
