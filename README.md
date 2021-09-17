@@ -52,7 +52,7 @@ Tested with webtrees v2.0.11 on PHP v7.4.13.
 
 ## Implementation and Languages
 
-Support for historic EVEN tags is currently limited to the TYPE, PLAC, DATE, NOTE and SOUR subtags. Language support is even further limited to the TYPE subtag. Below you'll find an example in **German** and how it was implemented in `module.php`:
+Support for historic EVEN tags is currently limited to the TYPE, DATE, PLAC, NOTE and SOUR subtags. Language support is even further limited to the TYPE subtag. Below you'll find an example in **German** and how it was implemented in `module.php`:
 
 #### Resulting GEDCOM lines 
     1 EVEN Beginn des Zweiten Weltkriegs
