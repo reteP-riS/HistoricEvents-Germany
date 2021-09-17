@@ -69,7 +69,7 @@ Support for historic EVEN tags is currently limited to the TYPE, DATE, PLAC, NOT
       $eventType = I18N::translate('Historic event');
       return new Collection([
       ...
-"1 EVEN Beginn des Zweiten Weltkriegs\n2 TYPE ".$eventType."\n2 DATE 01 SEP 1939\n2 PLAC Westerplatte, Neufahrwasser, Stadtkreis Danzig, Freie Stadt Danzig\n2 NOTE Beginn des Zweiten Weltkriegs durch den deutschen Überfall auf Polen.\n2 SOUR https://de.wikipedia.org/wiki/Überfall_auf_Polen",
+      "1 EVEN Beginn des Zweiten Weltkriegs\n2 TYPE ".$eventType."\n2 DATE 01 SEP 1939\n2 PLAC Westerplatte, Neufahrwasser, Stadtkreis Danzig, Freie Stadt Danzig\n2 NOTE Beginn des Zweiten Weltkriegs durch den deutschen Überfall auf Polen.\n2 SOUR https://de.wikipedia.org/wiki/Überfall_auf_Polen",
       ...
       ]);
     }
