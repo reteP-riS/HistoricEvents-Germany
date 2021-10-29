@@ -42,7 +42,7 @@ return new class extends AbstractModule implements ModuleCustomInterface, Module
     
     public const CUSTOM_WEBSITE = 'https://github.com/reteP-riS/HistoricEvents-Germany';
     
-    public const CUSTOM_VERSION = '1.0.8';
+    public const CUSTOM_VERSION = '1.0.9';
 
     public const CUSTOM_LAST = 'https://github.com/reteP-riS/HistoricEvents-Germany/raw/main/latest-version.txt';
 
