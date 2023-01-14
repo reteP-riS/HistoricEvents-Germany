@@ -33,7 +33,7 @@ You should have received a copy of the GNU General Public License along with thi
 
 Same as the [webtrees#system-requirements](https://github.com/fisharebest/webtrees#system-requirements).
 
-Tested with webtrees 2.0.17 up to 2.0.24 on PHP 7.4 and with webtrees 2.1.6 on PHP 8.0 and 8.1.
+Tested with webtrees 2.0.17 up to 2.0.24 on PHP 7.4 and with webtrees 2.1.6 up to 2.1.15 on PHP 8.0, 8.1 and 8.2.
 
 ## Installation
 
