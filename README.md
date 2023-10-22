@@ -21,7 +21,7 @@ This module provides selected events of the German history to [webtrees](https:/
 
 ## Copyright and License
 
-© Copyright 2021 [webtrees](https://github.com/fisharebest/webtrees "webtrees") Development Team & [Sir Peter](https://github.com/reteP-riS/HistoricEvents-Germany "Sir Peter")
+© Copyright 2021-2023 [webtrees](https://github.com/fisharebest/webtrees "webtrees") Development Team & [Sir Peter](https://github.com/reteP-riS/HistoricEvents-Germany "Sir Peter")
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
@@ -33,7 +33,7 @@ You should have received a copy of the GNU General Public License along with thi
 
 Same as the [webtrees#system-requirements](https://github.com/fisharebest/webtrees#system-requirements).
 
-Tested with webtrees 2.0.17 up to 2.0.24 on PHP 7.4 and with webtrees 2.1.6 up to 2.1.16 on PHP 8.0, 8.1 and 8.2.
+Tested with webtrees 2.0.17 up to 2.0.24 on PHP 7.4 and with webtrees 2.1.6 up to 2.1.18 on PHP 8.0, 8.1 and 8.2.
 
 ## Installation
 
