@@ -7,7 +7,11 @@
 [![license](https://img.shields.io/github/license/reteP-riS/HistoricEvents-Germany)](https://github.com/reteP-riS/HistoricEvents-Germany/blob/main/LICENSE.md "license")
 [![webtrees](https://img.shields.io/static/v1?label=webtrees&message=v2.x&color=blue)](https://github.com/fisharebest/webtrees "webtrees")
 
-This module provides selected events of the German history to [webtrees](https://github.com/fisharebest/webtrees) version 2.x only.
+This module provides selected events of the German history to [webtrees](https://github.com/fisharebest/webtrees).
+
+Versions 1.0.x of this module support [webtrees](https://github.com/fisharebest/webtrees) versions 2.0 and 2.1 only.
+
+A new version of this module is currently under development and will support [webtrees](https://github.com/fisharebest/webtrees) version 2.2.
 
 ## Table of Contents
 
@@ -21,7 +25,7 @@ This module provides selected events of the German history to [webtrees](https:/
 
 ## Copyright and License
 
-© Copyright 2021-2023 [webtrees](https://github.com/fisharebest/webtrees "webtrees") Development Team & [Sir Peter](https://github.com/reteP-riS/HistoricEvents-Germany "Sir Peter")
+© Copyright 2021-2025 [webtrees](https://github.com/fisharebest/webtrees "webtrees") Development Team & [Sir Peter](https://github.com/reteP-riS/HistoricEvents-Germany "Sir Peter")
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
@@ -33,7 +37,7 @@ You should have received a copy of the GNU General Public License along with thi
 
 Same as the [webtrees#system-requirements](https://github.com/fisharebest/webtrees#system-requirements).
 
-Tested with webtrees 2.0.17 up to 2.0.24 on PHP 7.4 and with webtrees 2.1.6 up to 2.1.18 on PHP 8.0, 8.1 and 8.2.
+Versions 1.0.x of this module have been tested with webtrees 2.0.17 - 2.0.24 on PHP 7.4 and with webtrees 2.1.6 - 2.1.22 on PHP 8.0 - 8.3.
 
 ## Installation
 
