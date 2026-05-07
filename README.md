@@ -9,23 +9,23 @@
 
 This module provides selected events of the German history to [webtrees](https://github.com/fisharebest/webtrees).
 
-Versions 1.0.x of this module support [webtrees](https://github.com/fisharebest/webtrees) versions 2.0 and 2.1 only.
-
-A new version of this module is currently under development and will support [webtrees](https://github.com/fisharebest/webtrees) version 2.2.
+* Versions 1.0.x of this module support [webtrees](https://github.com/fisharebest/webtrees) versions 2.0 and 2.1 only.
+* Versions 1.1.x of this module support [webtrees](https://github.com/fisharebest/webtrees) version 2.2.
 
 ## Table of Contents
 
 * [Copyright and License](#copyright-and-license)
 * [System Requirements and Testing](#system-requirements-and-testing)
+* [Motivation](#motivation)
 * [Installation](#installation)
 * [Upgrade](#upgrade)
 * [Implementation and Languages](#implementation-and-languages)
 * [Usage](#usage)
-* [Issues and Feature Requests](#issues-and-feature-requests)
+* [Reporting Issues](#reporting-issues)
 
 ## Copyright and License
 
-© Copyright 2021-2025 [webtrees](https://github.com/fisharebest/webtrees "webtrees") Development Team & [Sir Peter](https://github.com/reteP-riS/HistoricEvents-Germany "Sir Peter")
+© Copyright 2021-2026 [webtrees](https://github.com/fisharebest/webtrees "webtrees") Development Team & [Sir Peter](https://github.com/reteP-riS/HistoricEvents-Germany "Sir Peter")
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
@@ -37,7 +37,18 @@ You should have received a copy of the GNU General Public License along with thi
 
 Same as the [webtrees#system-requirements](https://github.com/fisharebest/webtrees#system-requirements).
 
-Versions 1.0.x of this module have been tested with webtrees 2.0.17 - 2.0.24 on PHP 7.4 and with webtrees 2.1.6 - 2.1.22 on PHP 8.0 - 8.3.
+* Versions 1.0.x of this module have been tested with webtrees 2.0.17 - 2.0.24 on PHP 7.4 and with webtrees 2.1.6 - 2.1.22 on PHP 8.0 - 8.3.
+* Versions 1.1.x of this module have been tested with webtrees 2.2.0 - 2.2.6 on PHP 8.3.
+
+## Motivation
+
+This module was developed as a personal project to test and demonstrate the capabilities of [webtrees](https://github.com/fisharebest/webtrees) in integrating selected historical events, with a focus on German history and the individuals included in various family trees that I manage for myself and others. The idea was to add PLAC, NOTE, and SOUR tags to the EVEN records so that, together with the DATE tags, more comprehensive historical datasets pointing to additional information could be provided to the user.
+
+This module does not claim to provide a complete list of all events in German history, nor does it aim to offer translations of the selected events into other languages. Nevertheless, it demonstrates one way in which translations can be implemented.
+
+The location hierarchy used does not claim to be universally valid or applicable, nor does it claim to be historically accurate; rather, it is tailored to a specific dataset.
+
+Please feel free to copy this module and adapt it to your personal needs.
 
 ## Installation
 
@@ -78,12 +89,14 @@ Support for historic EVEN tags is currently limited to the TYPE, DATE, PLAC, NOT
       ]);
     }
 
-Language files are included to translate the event TYPE value from English "Historic event" to the German "Historisches Ereignis" and other languages for all events automatically while the EVEN, PLAC, NOTE and SOUR values are currently available in German only. Links like in the above example will only be clickable if markdown has NOT been enabled in the tree preferences. 
+Language files are included to translate the event TYPE value from English "Historic event" to the German "Historisches Ereignis" and other languages for all events automatically while the EVEN, PLAC, NOTE and SOUR values are currently available in German only.
+
+Links like in the above example will only be clickable if markdown has NOT been enabled in the tree preferences!
 
 ## Usage
 
 1. As a user, enable or disable the "Historic events" on the "Facts and events" tab as needed.
 
-## Issues and Feature Requests
+## Reporting Issues
 
-If you experience a software issue or have a request for additional historic events for this module you can [**create a new issue**](https://github.com/reteP-riS/HistoricEvents-Germany/issues?state=open "create new issue") on GitHub.
+If you experience a software issue with this module please [**create a new issue**](https://github.com/reteP-riS/HistoricEvents-Germany/issues?state=open "create new issue") on GitHub.
